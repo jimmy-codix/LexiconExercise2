@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LexiconExercise2.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LexiconExercise2
 {
-    internal class InputOutputManager
+    internal class InputOutputManager : IInputOutputManager
     {
 
         public void Clear()
