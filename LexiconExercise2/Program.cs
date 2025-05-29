@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Logic logic = new Logic();
+            InputOutputManager io = new InputOutputManager();
+            Logic logic = new Logic(io);
             logic.Run();
         }
     }
